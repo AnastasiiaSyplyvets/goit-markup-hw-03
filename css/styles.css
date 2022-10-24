@@ -1,0 +1,239 @@
+/* Cтили для index.html */
+:root {
+  --primary-text-color: #757575;
+  --secondary-text-color: #000000;
+  --title-text-color: #212121;
+  --background-color-primary: #f5f5f5;
+  --background-color-secondary: #f5f4fa;
+  --accent-color-primary: #2196f3;
+  --accent-color-secondary: #ffffff;
+  --accent-color-third: #2f303a;
+}
+.page {
+  background-color: var(--background-color-primary);
+  color: var(--primary-text-color);
+
+  font-family: Roboto, sans-serif, Raleway, sans-serif;
+  font-size: 14px;
+}
+.logo {
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.logo-part {
+  color: var(--accent-color-primary);
+
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+.logo-text {
+  color: var(--secondary-text-color);
+}
+.list {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.site-nav-item {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+}
+/* site-nav стилизация меню, нав */
+
+.site-nav {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.site-nav .link.current {
+  color: var(--accent-color-primary);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--title-text-color);
+}
+
+.site-nav .link:focus,
+.site-nav .link:hover {
+  color: var(--title-text-color);
+}
+/* auth-nav стилизация контактов */
+.auth-nav {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.auth-nav .link-mail {
+  color: var(--accent-color-primary);
+  letter-spacing: 0.02em;
+}
+.auth-nav .link-mail:hover,
+.auth-nav .link-mail:focus {
+  color: var(--primary-text-color);
+}
+.auth-nav .link-tel {
+  color: var(--primary-text-color);
+  letter-spacing: 0.02em;
+}
+/* main стилизация главного отдела */
+.section-title {
+  color: var(--title-text-color);
+}
+/* banner ,баннер */
+.banner {
+  background: var(--accent-color-third);
+}
+.banner-title {
+  color: var(--accent-color-secondary);
+
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.4;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+.button-order {
+  background: var(--accent-color-primary);
+  color: var(--accent-color-secondary);
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+}
+/* features особенности */
+
+.features .features-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+.features-text {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+/* Team */
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+.team {
+  background: var(--background-color-secondary);
+}
+.team .team-member {
+  color: var(--title-text-color);
+
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.team-text {
+  font-size: 16px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+/* Footer */
+.footer {
+  background-color: var(--accent-color-third);
+}
+.logo-text-secondary {
+  color: var(--accent-color-secondary);
+
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+.address-list-text {
+  color: var(--accent-color-secondary);
+  font-size: 14px;
+  line-height: 1.71;
+  font-style: normal;
+  letter-spacing: 0.03em;
+}
+.address-list-contact {
+  color: rgba(255, 255, 255, 0.6);
+
+  font-size: 14px;
+  line-height: 1.71;
+  font-style: normal;
+  letter-spacing: 0.03em;
+}
+/* Стилизация портфолио */
+/* Стилизация кнопок */
+.list {
+  list-style: none;
+}
+.tabs {
+  background: var(--background-color-secondary);
+  color: var(--title-text-color);
+
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.62;
+}
+.button-item {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+}
+.all {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+}
+.tabs .all.current {
+  background-color: var(--accent-color-primary);
+  color: var(--accent-color-secondary);
+}
+.
+/* Стилизация списка продуктов */
+.products .list {
+  list-style: none;
+}
+.products {
+  color: var(--primary-text-color);
+}
+.products-title {
+  color: var(--title-text-color);
+
+  font-size: 18px;
+  line-height: 2;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+}
+.products-text {
+  color: var(--primary-text-color);
+
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+}
