@@ -21,60 +21,64 @@
   <body class="page">
     <header class="portfolio-header">
       <div class="container">
-        <nav>
+        <nav class="main-nav">
           <a href="/" class="logo"
             ><span class="logo-part">Web</span
             ><span class="logo-text">Studio</span></a
           >
           <ul class="site-nav list">
-            <li>
+            <li class="item">
               <a href="./index.html" class="link site-nav-item">Студія</a>
             </li>
-            <li>
-              <a href="./portfolio.html" class="link current">Портфоліо</a>
+            <li class="item">
+              <a href="./portfolio.html" class="link current portfolio-item"
+                >Портфоліо</a
+              >
             </li>
-            <li><a href="" class="link site-nav-item">Контакти</a></li>
+            <li class="item">
+              <a href="" class="link site-nav-item">Контакти</a>
+            </li>
+          </ul>
+
+          <ul class="auth-nav list">
+            <li class="item">
+              <a href="mailto:info@devstudio.com" class="link-mail"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="item">
+              <a href="tel:+380961111111" class="link-tel">+38 096 111 11 11</a>
+            </li>
           </ul>
         </nav>
-
-        <ul class="auth-nav list">
-          <li>
-            <a href="mailto:info@devstudio.com" class="link-mail"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a href="tel:+380961111111" class="link-tel">+38 096 111 11 11</a>
-          </li>
-        </ul>
       </div>
     </header>
     <main>
-      <section class="section">
+      <section class="section-portfolio">
         <div class="container">
           <h2 hidden></h2>
           <ul class="tabs list">
-            <li>
+            <li class="item">
               <button type="button" class="all current">
                 <div class="button-text-all">Усі</div>
               </button>
             </li>
-            <li>
+            <li class="item">
               <button type="button" class="button-item">
                 <div class="button-text">Веб-сайти</div>
               </button>
             </li>
-            <li>
+            <li class="item">
               <button type="button" class="button-item">
                 <div class="button-text">Додатки</div>
               </button>
             </li>
-            <li>
+            <li class="item">
               <button type="button" class="button-item">
                 <div class="button-text">Дизайн</div>
               </button>
             </li>
-            <li>
+            <li class="item">
               <button type="button" class="button-item">
                 <div class="button-text">Маркетинг</div>
               </button>
@@ -91,8 +95,10 @@
                   alt="веб-сторінка"
                   width="370"
                 />
-                <h3 class="products-title">Технокряк</h3>
-                <p class="products-text">Веб-сайт</p>
+                <div class="product-card-text">
+                  <h3 class="products-title">Технокряк</h3>
+                  <p class="products-text">Веб-сайт</p>
+                </div>
               </a>
             </li>
             <li class="product-card">
@@ -103,8 +109,12 @@
                   alt="постер"
                   width="370"
                 />
-                <h3 class="products-title">Постер New Orlean vs Golden Star</h3>
-                <p class="products-text">Дизайн</p>
+                <div class="product-card-text">
+                  <h3 class="products-title">
+                    Постер New Orlean vs Golden Star
+                  </h3>
+                  <p class="products-text">Дизайн</p>
+                </div>
               </a>
             </li>
             <li class="product-card">
@@ -115,8 +125,10 @@
                   alt="логотип-ресторану"
                   width="370"
                 />
-                <h3 class="products-title">Ресторан Seafood</h3>
-                <p class="products-text">Додаток</p>
+                <div class="product-card-text">
+                  <h3 class="products-title">Ресторан Seafood</h3>
+                  <p class="products-text">Додаток</p>
+                </div>
               </a>
             </li>
             <li class="product-card">
@@ -127,8 +139,10 @@
                   alt="навушники"
                   width="370"
                 />
-                <h3 class="products-title">Проєкт Prime</h3>
-                <p class="products-text">Маркетинг</p>
+                <div class="product-card-text">
+                  <h3 class="products-title">Проєкт Prime</h3>
+                  <p class="products-text">Маркетинг</p>
+                </div>
               </a>
             </li>
             <li class="product-card">
@@ -139,8 +153,10 @@
                   alt="коробки"
                   width="370"
                 />
-                <h3 class="products-title">Проєкт Boxes</h3>
-                <p class="products-text">Додаток</p>
+                <div class="product-card-text">
+                  <h3 class="products-title">Проєкт Boxes</h3>
+                  <p class="products-text">Додаток</p>
+                </div>
               </a>
             </li>
             <li class="product-card">
@@ -151,8 +167,10 @@
                   alt="монітор"
                   width="370"
                 />
-                <h3 class="products-title">Inspiration has no Borders</h3>
-                <p class="products-text">Веб-сайт</p>
+                <div class="product-card-text">
+                  <h3 class="products-title">Inspiration has no Borders</h3>
+                  <p class="products-text">Веб-сайт</p>
+                </div>
               </a>
             </li>
             <li class="product-card">
@@ -163,8 +181,10 @@
                   alt="журнал"
                   width="370"
                 />
-                <h3 class="products-title">Видання Limited Edition</h3>
-                <p class="products-text">Дизайн</p>
+                <div class="product-card-text">
+                  <h3 class="products-title">Видання Limited Edition</h3>
+                  <p class="products-text">Дизайн</p>
+                </div>
               </a>
             </li>
             <li class="product-card">
@@ -175,8 +195,10 @@
                   alt="проект-лаб"
                   width="370"
                 />
-                <h3 class="products-title">Проєкт LAB</h3>
-                <p class="products-text">Маркетинг</p>
+                <div class="product-card-text">
+                  <h3 class="products-title">Проєкт LAB</h3>
+                  <p class="products-text">Маркетинг</p>
+                </div>
               </a>
             </li>
             <li class="product-card">
@@ -187,8 +209,10 @@
                   alt="ноутбук"
                   width="370"
                 />
-                <h3 class="products-title">Growing Business</h3>
-                <p class="products-text">Додаток</p>
+                <div class="product-card-text">
+                  <h3 class="products-title">Growing Business</h3>
+                  <p class="products-text">Додаток</p>
+                </div>
               </a>
             </li>
           </ul>
