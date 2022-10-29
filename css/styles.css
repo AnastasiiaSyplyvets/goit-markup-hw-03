@@ -16,7 +16,7 @@
   box-sizing: inherit;
 } */
 .page {
-  background-color: var(--background-color-primary);
+ 
   color: var(--primary-text-color);
 
   font-family: Roboto, sans-serif, Raleway, sans-serif;
@@ -28,7 +28,7 @@ img {
 .container {
   margin-left: auto;
   margin-right: auto;
-  width: 1230px;
+  width: 1200px;
   padding-right: 15px;
   padding-left: 15px;
 }
@@ -46,6 +46,7 @@ p {
 }
 .main-header {
   border-bottom: 1px solid #ECECEC;
+  padding: 32px 0px;
 }
 .logo {
   font-family: Raleway, sans-serif;
@@ -53,8 +54,9 @@ p {
   font-weight: 700;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  padding: 24px 0px;
   width: 145px;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 
 .logo-part {
@@ -97,7 +99,6 @@ a {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  padding: 32px 0px;
   margin-left: 93px;
 }
 .site-nav .item { 
@@ -128,8 +129,7 @@ a {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  padding: 32px 0px;
-  margin-left: auto;
+  margin-left:344px;
 }
 
 .auth-nav .item +.item {
@@ -156,8 +156,8 @@ a {
 .banner {
   background: var(--accent-color-third);
   text-align: center;
-  padding-bottom: 94px;
-  padding-top: 94px;
+  padding-bottom: 200px;
+  padding-top: 200px;
 }
 .banner-title {
   color: var(--accent-color-secondary);
@@ -216,7 +216,6 @@ justify-content: space-between;
 }
 .features-list {
   display: flex;
-  width: 1170px;
 }
 .features-list .item{
   width: 270px;
@@ -250,6 +249,7 @@ justify-content: space-between;
 .team {
   background: var(--background-color-secondary);
   padding-bottom: 94px;
+  padding-top: 94px;
 }
 .team-list {
   display: flex;
@@ -272,19 +272,20 @@ justify-content: space-between;
   border: 1px solid var(--accent-color-secondary);
   border-radius: 0px 0px 4px 4px;
   border-top: none;
+  padding: 30px 0;
+   text-align: center;
 }
 .team-card:last-of-type {
   margin-right:0;
 }
-.team-item {
-  padding-bottom: 30px;
-}
+
 .team-text {
   font-size: 16px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   margin-top: 0;
   margin-bottom: 0;
+ 
 }
 /* Footer */
 .footer {
@@ -302,7 +303,8 @@ justify-content: space-between;
   letter-spacing: 0.03em;
 }
 .address-list {
-  padding-top: 20px;
+  margin-top: 20px;
+  
 }
 .address-list-text {
   color: var(--accent-color-secondary);
@@ -310,9 +312,8 @@ justify-content: space-between;
   line-height: 1.71;
   font-style: normal;
   letter-spacing: 0.03em;
-  padding-bottom: 9px;
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 9px;
 }
 .address-list-contact {
   color: rgba(255, 255, 255, 0.6);
@@ -322,6 +323,9 @@ justify-content: space-between;
   font-style: normal;
   letter-spacing: 0.03em;
 }
+.address-mail {
+  margin-bottom: 9px;
+}
 /* Стилизация портфолио */
 /* Стилизация кнопок */
 .list {
@@ -330,8 +334,12 @@ justify-content: space-between;
   margin-top: 0;
 }
 .portfolio-header {
-  border: 1px solid #ECECEC;
+  border-bottom: 1px solid #ECECEC;
 
+}
+.section-portfolio {
+  padding-bottom:94px;
+  padding-top: 94px;
 }
 .tabs {
   background: var(--background-color-secondary);
@@ -341,6 +349,8 @@ justify-content: space-between;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.62;
+  margin-bottom: 34px;
+  padding-bottom: 16px;
 
   display:flex;
   justify-content: center;
@@ -389,9 +399,8 @@ justify-content: space-between;
 }
 .
 /* Стилизация списка продуктов */
-.section-portfolio {
-  padding-bottom:94px;
-  padding-top: 94px;
+.products .list {
+  list-style: none;
 }
 .product-card {
   background-color: var(--accent-color-secondary);
@@ -406,9 +415,7 @@ justify-content: space-between;
 .product-card:nth-last-child(-n+3) {
   margin-bottom: 0;
 }
-.products .list {
-  list-style: none;
-}
+
 .products {
   display: flex;
   flex-wrap: wrap;
