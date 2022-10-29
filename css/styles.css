@@ -46,7 +46,7 @@ p {
 }
 .main-header {
   border-bottom: 1px solid #ECECEC;
-  padding: 32px 0px;
+  padding: 24px 0px;
 }
 .logo {
   font-family: Raleway, sans-serif;
@@ -55,8 +55,7 @@ p {
   line-height: 1.19;
   letter-spacing: 0.03em;
   width: 145px;
-  padding-top: 24px;
-  padding-bottom: 25px;
+
 }
 
 .logo-part {
@@ -342,15 +341,14 @@ justify-content: space-between;
   padding-top: 94px;
 }
 .tabs {
-  background: var(--background-color-secondary);
   color: var(--title-text-color);
 
   font-family: Roboto;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.62;
-  margin-bottom: 34px;
-  padding-bottom: 16px;
+  margin-bottom: 50px;
+
 
   display:flex;
   justify-content: center;
